@@ -17,7 +17,7 @@
     </Window.Resources>
     <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
         <Button Style="{StaticResource ResourceKey=DocButton}">Открыть</Button>
-        <Button Style="{StaticResource ResourceKey=DocButton}">Закрыть</Button>
+        <Button Style="{StaticResource ResourceKey=DocButton}">Обработать</Button>
         <Button Style="{StaticResource ResourceKey=DocButton}">Сохранить</Button>
         <Button Padding="5" Margin="5">Закрыть</Button>
         <Button x:Name="Menu2" Padding="5" Margin="5" Click="Menu2_Click">Обратно в меню</Button>

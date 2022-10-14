@@ -23,5 +23,22 @@ namespace Wpf_Samkova_UP_PR
         {
             InitializeComponent();
         }
+
+        private void Menu3_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
+        }
+
+        private void Zakrit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void otkrit_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("И зачем ты на это нажал?");
+        }
     }
 }

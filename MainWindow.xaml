@@ -8,7 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock Text="Навигация по практической" Margin="230,10,230,0" FontSize="36" FontFamily="Bahnschrift Light Condensed" Height="43" VerticalAlignment="Top"/>
-        <Button x:Name="Eks1" Content="Эксперемент1" Margin="320,99,0,0" FontSize="22" Click="Eks1_Click" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="160"/>
-        <Button x:Name="Eks2" Content="Эксперемент2" Margin="320,160,0,0" FontSize="22" Click="Eks2_Click" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="160"/>
+        <Button x:Name="Eks1" Content="Эксперемент1" Margin="0,99,0,0" FontSize="22" Click="Eks1_Click" Height="42" VerticalAlignment="Top" HorizontalAlignment="Center" Width="160"/>
+        <Button x:Name="Eks2" Content="Эксперемент2" Margin="0,160,0,0" FontSize="22" Click="Eks2_Click" Height="42" VerticalAlignment="Top" HorizontalAlignment="Center" Width="160"/>
+        <Button x:Name="Zadanie" Content="Задание 1" Margin="0,217,0,0" FontSize="22" Click="Zadanie_Click" HorizontalAlignment="Center" Width="160" Height="42" VerticalAlignment="Top"/>
     </Grid>
 </Window>
