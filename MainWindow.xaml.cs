@@ -45,5 +45,12 @@ namespace Wpf_Samkova_UP_PR
             window3.Show();
             this.Close();
         }
+
+        private void Zadanie3_Click(object sender, RoutedEventArgs e)
+        {
+            Window4 window4 = new Window4();
+            window4.Show();
+            this.Close();
+        }
     }
 }

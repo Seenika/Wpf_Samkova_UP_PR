@@ -11,5 +11,6 @@
         <Button x:Name="Eks1" Content="Эксперемент1" Margin="0,99,0,0" FontSize="22" Click="Eks1_Click" Height="42" VerticalAlignment="Top" HorizontalAlignment="Center" Width="160"/>
         <Button x:Name="Eks2" Content="Эксперемент2" Margin="0,160,0,0" FontSize="22" Click="Eks2_Click" Height="42" VerticalAlignment="Top" HorizontalAlignment="Center" Width="160"/>
         <Button x:Name="Zadanie" Content="Задание 1" Margin="0,217,0,0" FontSize="22" Click="Zadanie_Click" HorizontalAlignment="Center" Width="160" Height="42" VerticalAlignment="Top"/>
+        <Button x:Name="Zadanie3" Content="Задание 3" Margin="0,278,0,0" FontSize="22" Click="Zadanie3_Click" Height="42" VerticalAlignment="Top" HorizontalAlignment="Center" Width="160"/>
     </Grid>
 </Window>
