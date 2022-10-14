@@ -13,5 +13,6 @@
             <Button Background="DarkBlue" Foreground="White" FontFamily="Verdana" Padding="5" Margin="5">Сохранить</Button>
             <Button Padding="5" Margin="5">Закрыть</Button>
         </StackPanel>
+        <Button x:Name="Menu" Content="Обратно в меню" Margin="10,82,0,0" FontSize="18" Click="Menu_Click" Height="38" VerticalAlignment="Top" HorizontalAlignment="Left" Width="171"/>
     </Grid>
 </Window>

@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock Text="Навигация по практической" Margin="230,10,230,381" FontSize="36" FontFamily="Bahnschrift Light Condensed"/>
-        <Button x:Name="Eks1" Content="Эксперемент1" Margin="320,99,320,293" FontSize="22" Click="Eks1_Click"/>
-        <Button x:Name="Eks2" Content="Эксперемент2" Margin="320,160,320,232" FontSize="22" Click="Eks2_Click"/>
+        <TextBlock Text="Навигация по практической" Margin="230,10,230,0" FontSize="36" FontFamily="Bahnschrift Light Condensed" Height="43" VerticalAlignment="Top"/>
+        <Button x:Name="Eks1" Content="Эксперемент1" Margin="320,99,0,0" FontSize="22" Click="Eks1_Click" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="160"/>
+        <Button x:Name="Eks2" Content="Эксперемент2" Margin="320,160,0,0" FontSize="22" Click="Eks2_Click" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="160"/>
     </Grid>
 </Window>
