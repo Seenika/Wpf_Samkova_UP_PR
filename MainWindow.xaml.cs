@@ -24,5 +24,19 @@ namespace Wpf_Samkova_UP_PR
         {
             InitializeComponent();
         }
+
+        private void Eks1_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            this.Close();
+        }
+
+        private void Eks2_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 window2 = new Window2();
+            window2.Show();
+            this.Close();
+        }
     }
 }
