@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Wpf_Samkova_UP_PR"
         mc:Ignorable="d"
         Title="Задание 3" Height="450" Width="800">
-    <Grid>
+    <Window.Resources>
         
-    </Grid>
+    </Window.Resources>
 </Window>
