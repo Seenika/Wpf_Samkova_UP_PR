@@ -23,5 +23,12 @@ namespace Wpf_Samkova_UP_PR
         {
             InitializeComponent();
         }
+
+        private void Menu_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
+        }
     }
 }
